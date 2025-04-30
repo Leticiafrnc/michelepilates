@@ -33,14 +33,18 @@ a {
     color: #fff;
 }
 
-p{
+p {
     font-size: 15px;
 }
+
+span {
+    color: #000;
+    font-weight: 500;
+}
+
 .degrade {
 
-
-    background: radial-gradient(at right top, rgba(191, 191, 191, 1.0), rgba(64, 64, 64, 1.0));
-
+    background: linear-gradient(to right, rgb(236, 230, 230), rgba(0, 152, 179));
 }
 
 /* ESTILO DO HEADER */
@@ -73,7 +77,7 @@ section.botoes-links {
 
 a.link button {
     width: 100%;
-    padding: 10px 10px;
+    padding: 10px 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -87,6 +91,8 @@ a.link button {
 
 a.link i {
     font-size: 1.5em;
+    color: #000;
+
 }
 
 a.link button:hover,
